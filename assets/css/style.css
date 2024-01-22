@@ -1,10 +1,25 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Merriweather+Sans:wght@300;600&display=swap');
+
+/* body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+h1 h2 h3 {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 600;
+}
+ */
 
 /*--------------------------------------------Colors*/
 
 /* ----------------------------------------Special paddings/margins/text */
 
 /*--------------------------------------------Heading*/
+
+/*--------------------------------------------Header*/
+
+/*--------------------------------------------Subheadings*/
 
 /*--------------------------------------------Hover.css*/
 
@@ -15,8 +30,30 @@
 
 /* ----------------------------------------Footer */
 
+footer {
+    height: 150px;
+}
+
+.social-networks {
+    text-align: center;
+
+}
+
+/* 
+.social-networks li {
+    display: inline;
+} 
+*/
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #777777;
+}
 /* ----------------------------------------Personal Info*/
 
 /*--------------------------------------------Contact Form*/
 
 /*--------------------------------------------Media*/
+
