@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Merriweather+Sans:wght@300;600&display=swap');
 
 /* body {
@@ -19,7 +20,19 @@ h1 h2 h3 {
 
 /*--------------------------------------------Header*/
 
-/*--------------------------------------------Subheadings*/
+/*--------------------------------------------Subheadings & Specials*/
+
+#sale {
+    text-align: center;
+    background: yellow;
+    color: red;
+    border: 1px solid red;
+    width: 75%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px #ccc;
+}
 
 /*--------------------------------------------Hover.css*/
 
@@ -56,4 +69,3 @@ footer {
 /*--------------------------------------------Contact Form*/
 
 /*--------------------------------------------Media*/
-
