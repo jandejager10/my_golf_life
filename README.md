@@ -51,6 +51,6 @@ At the time of writing this I have only a vague idea of what I want this project
 - 		pic4
 	
 # Release History + Bugs
-
+22/01/2024 - Deleted basically everthing that came before and restarted - really hope this goes well as there is not much time left.
 # FAQ
 
