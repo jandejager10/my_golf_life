@@ -1,32 +1,134 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Merriweather+Sans:wght@300;600&display=swap');
 
-/* body {
+  /* Style the body */
+
+body {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
 }
 
+/*
 h1 h2 h3 {
     font-family: 'Merriweather Sans', sans-serif;
     font-weight: 600;
 }
- */
 
+*/
+
+ 
 /*--------------------------------------------Colors*/
+
+color_example {
+color:
+#2D3540
+#0B8C38
+#20733D
+#5DBF4E
+#F2F2F2
+}
+ 
 
 /* ----------------------------------------Special paddings/margins/text */
 
+ 
+
 /*--------------------------------------------Heading*/
 
-/*--------------------------------------------Header*/
+/*--------------------------------------------Navbar*/
 
-/*--------------------------------------------Subheadings*/
+.navbar {
+    display: flex;
+    background-color: #2D3540;
+    }
 
-/*--------------------------------------------Hover.css*/
+.navbar a {
+    color: #F2F2F2;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+    }
 
-.hvr-sweep-to-bottom:before {
-    background: rgba(0, 0, 0, 0.2);
-    height: 120px;
+.navbar a:hover {
+    background-color: #ddd;
+    color: #2D3540;
+    }
+
+  /*--------------------------------------------Header*/
+
+.header {
+    padding: 60px;
+    text-align: center;
+    background: #20733D;
+    color: #F2F2F2;
+  }
+
+/*--------------------------------------------Subheadings & Specials*/
+
+ 
+
+#sale {
+    text-align: center;
+    background: #DB592A;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    width: 75%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px #ccc;
 }
+
+/*-------------------------------------------- Main Container */
+
+.row { 
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  /* Left column -- in Main Container*/
+  
+  .side {
+    flex: 30%;
+    background-color: #f1f1f1;
+    padding: 20px;
+  }
+
+   /* Left bottom images -- in Main Container*/
+   .lb_image {
+    color: #F2F2F2;
+    height:60px;
+    background-color: #2D3540;
+    width: 100%;
+    padding: 20px;
+   }
+  
+  /* Right column -- in Main Container */
+  
+  .main {
+    flex: 70%;
+    background-color: white;
+    padding: 20px;
+  }
+  
+  /* Right image  -- in Main Container */
+
+  .main_img {
+    flex:auto;
+    aspect-ratio: 8 / 6;
+    width: 100%;
+    object-fit: contain;
+    background-color: #2D3540;
+  }
+
+  /* Right bottom image  -- in Main Container */
+  
+  .noimage {
+    color: #F2F2F2;
+    background-color: #2D3540;
+    width: 100%;
+    height:200px;
+    padding: 20px;
+  }
 
 /* ----------------------------------------Footer */
 
@@ -34,26 +136,39 @@ footer {
     height: 150px;
 }
 
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+  }
+
 .social-networks {
     text-align: center;
-
 }
 
-/* 
+/*
 .social-networks li {
     display: inline;
-} 
+}
+
 */
 
 .social-networks i {
     font-size: 160%;
     margin: 1%;
     padding: 5%;
-    color: #777777;
+    color: #2D3540;
 }
+
 /* ----------------------------------------Personal Info*/
 
 /*--------------------------------------------Contact Form*/
 
 /*--------------------------------------------Media*/
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
 
+@media screen and (max-width: 700px) {
+.row, .navbar {
+      flex-direction: column;
+    }
+  }
