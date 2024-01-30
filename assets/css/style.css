@@ -40,6 +40,12 @@ color:
 .navbar {
     display: flex;
     background-color: #2D3540;
+    width: 75%;
+    width: 75%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px #F2F2F2;
     }
 
 .navbar a {
@@ -114,7 +120,7 @@ color:
   /* Right image  -- in Main Container */
 
   .main_img {
-    flex:auto;
+    flex: auto;
     aspect-ratio: 8 / 6;
     width: 100%;
     object-fit: contain;
@@ -172,4 +178,29 @@ footer {
 .row, .navbar {
       flex-direction: column;
     }
+  }
+
+  /* construction page */
+
+  .construction {
+    background-image: url(https://pixabay.com/photos/golf-ball-golf-ball-golf-ball-2453170/);
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  }
+
+  .centertext {
+    color: #5DBF4E;
+    font-family: "Merriweather Sans";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  hr {
+    margin: auto;
+    width: 40%;
   }

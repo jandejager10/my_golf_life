@@ -38,6 +38,8 @@ At the time of writing this I have only a vague idea of what I want this project
 - 	Code for FontAwesome delivered via https://cdn.jsdelivr.net
 - 	style.css basic layout headings from codeinstitute.com, the Rosie mini-project.
 -	Adobe, for the color wheel.  #2D3540	#0B8C38	#20733D #5DBF4E #F2F2F2
+-	Pictures / Photos from https://pixabay.com/
+-	Picures / Photos from https://www.shutterstock.com/
 	
 # Content
 	This includes history and information.
