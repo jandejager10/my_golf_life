@@ -25,10 +25,11 @@ At the time of writing this I have only a vague idea of what I want this project
 		- GitHub Pull Requests and Issues Extension
 - 	Github Desktop
 - 	git 
-- 	Balsamiq Wireframes
+- 	Balsamiq Wireframes (not used - yet)
 - 	Notepad++
 	
 # Wireframes
+-	no wireframes done for this project yet.
 
 # Reminders
 
@@ -47,12 +48,19 @@ At the time of writing this I have only a vague idea of what I want this project
 
 # Media (images and animations)
 	All them pictures have got to come from somewhere afterall:
-- 		pic1
-- 		pic2
-- 		pic3
-- 		pic4
+-	Pictures / Photos from https://pixabay.com/
+-	Picures / Photos from https://www.shutterstock.com/
+no individual attribution at this stage.
 	
 # Release History + Bugs
 22/01/2024 - Deleted basically everthing that came before and restarted - really hope this goes well as there is not much time left.
-# FAQ
+30/01/2024 - So little time and nothing works yet - picture flex is biggest problem at the moment.
 
+# TESTING
+-	Too many pages
+		Cut down to minimum as required (3)
+-	Ideas are not comming togetehr and usrr story is not working.
+-	Pictures are not flexing (biggest Problem)
+
+# FAQ
+-	Not FAQ yet -basic clicks only.
