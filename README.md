@@ -30,8 +30,11 @@ At the time of writing this I have only a vague idea of what I want this project
 	
 # Wireframes
 -	no wireframes done for this project yet.
+- would have helped with whitespace like this 
+<img src="assets/images/whitespace.png">
 
 # Reminders
+- keep track next time
 
 # Acknowledgements + Code
 - 	Code for hover transitions from http://ianlunn.co.uk/ using cdnjs cloudflare shortcuts.
@@ -50,7 +53,7 @@ At the time of writing this I have only a vague idea of what I want this project
 	All them pictures have got to come from somewhere afterall:
 -	Pictures / Photos from https://pixabay.com/
 -	Picures / Photos from https://www.shutterstock.com/
-no individual attribution at this stage.
+		no individual attribution at this stage.
 	
 # Release History + Bugs
 22/01/2024 - Deleted basically everthing that came before and restarted - really hope this goes well as there is not much time left.
@@ -64,6 +67,13 @@ no individual attribution at this stage.
 
 -Fix - Resizing of image on error.html now ok
 		- Outstanding is text does not stay centered.
+
+- Initail Page load with Lighthouse - Performance - Really Bad
+<img src="assets/images/page-load-initial.png">
+
+- Best Practices weirdly really good - must have learnt something at least.
+- Convert vector images from .jpg to .WebP
+- srcset and sizes values for your images
 
 
 # FAQ
