@@ -23,6 +23,10 @@ color:
 #20733D
 #5DBF4E
 #F2F2F2
+/*additional borders and shadows*/
+#FFFFFF
+#ddd
+#ccc
 }
  
 
@@ -124,9 +128,33 @@ color:
     padding: 0px;
   }
 
+  .featuredarticle {
+    text-align: center;
+    background: #5DBF4E;
+    color: #F2F2F2;
+    border: 1px solid #FFFFFF;
+    width: 75%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px #20733D;}
+
+    .featuredarticle h1 {
+      font-size: 2em;
+      text-align: center;
+    }
+    .featuredarticle h4 {
+      font-size: 1.5em;
+      text-align: center;
+    }
+    .featuredarticle p {
+      font-size: 1.2em;
+      text-align: center;
+    }
+
   /* Right bottom image  -- in Main Container */
   
-  .noimage {
+  .academy_img {
     color: #F2F2F2;
     background-color: #2D3540;
     width: 100%;
@@ -135,72 +163,101 @@ color:
   }
 
 /* ----------------------------------------Footer */
-
-footer {
-    height: 150px;
-}
-
-.footer {
-    padding: 20px;
-    text-align: center;
-    background: #ddd;
-  }
-
-.social-networks {
-    text-align: center;
-}
-
-/*
-.social-networks li {
-    display: inline;
-}
-
-*/
-
-.social-networks i {
-    font-size: 160%;
-    margin: 1%;
-    padding: 5%;
-    color: #2D3540;
-}
-
-/* ----------------------------------------Personal Info*/
-
-/*--------------------------------------------Contact Form*/
-
-/*--------------------------------------------Media*/
-/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
-
-@media screen and (max-width: 700px) {
-.row, .navbar {
-      flex-direction: column;
+  
+    .footer {
+      padding: 20px;
+      text-align: center;
+      background: #ddd;
     }
-  }
-
-  /* construction page */
-
-  .construction {
-    
-  height: 100%;
-  background-position: center;
-  background-size: cover;
-  position: relative;
-  }
-
-  .construction_image {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    opacity: 1;
-  }
-
-  .centertext {
-    color: #5DBF4E;
-    font-family: "Merriweather Sans";
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  
+    .footer a {
+      color: #2D3540;
+      padding: 14px 20px;
+      text-decoration: none;
+      text-align: center;
+      }
+  
+    .footer a:hover {
+      background-color: #ddd;
+      color: #2D3540;
+      }
+  
+    .footer p {
+      color: #2D3540;
+      padding: 14px 20px;
+      text-decoration: none;
+      text-align: center;
+      }
+  
+    .footer p:hover {
+      background-color: #F2F2F2;
+      color: #2D3540;
+      }
+  
+    /* ----------------------------------------Contact */
+  
+    #contact {
+      text-align: center;
+      background: #5DBF4E;
+      color: #F2F2F2;
+      border: 1px solid #FFFFFF;
+      width: 75%;
+      margin: auto;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 10px 10px 10px #20733D;
+    }
+  
+    .social-networks {
+      text-align: center;
+    }
+  
+    .social-networks li {
+      display: inline;
+    }
+  
+    .social-networks i {
+      font-size: 2em;
+      color: #2D3540;
+    }
+  
+    /* ----------------------------------------Personal Info*/
+  
+    /*--------------------------------------------Contact Form*/
+  
+    /*--------------------------------------------Media*/
+    /* Responsive layout - make columns and stack */
+  
+    @media screen and (max-width: 700px) {
+      .row, .navbar {
+        flex-direction: column;
+      }
+    }
+  
+    /*--------------------------------------------construction page */
+  
+    .construction {
+      
+      height: 100%;
+      background-position: center;
+      background-size: cover;
+      position: relative;
+    }
+  
+    .construction_image {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      opacity: 1;
+    }
+  
+    .centertext {
+      color: #5DBF4E;
+      font-family: "Merriweather Sans";
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50, -50%);
     text-align: center;
   }
 
@@ -209,7 +266,7 @@ footer {
     width: 40%;
   }
 
-  /* Shop Page */
+  /*--------------------------------------------Shop Page */
 
   #brand {
     text-align: center;

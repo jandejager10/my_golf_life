@@ -112,39 +112,43 @@
                               <div class="main_img">
                                 <picture>
                                   <source srcset="assets/images/golf-llanishen_640.jpg" alt="golf course" media="(max-width: 650px)">
-                                  <img src="assets/images/golf-llanishen_1280.jpg" alt="golf course" style="width: auto;">
+                                  <img src="assets/images/golf-llanishen_1280.jpg" alt="golf course" style="max-width: 980px;"> <!--max 980px otherwise it flexes on laptop screen-->
                                 </picture>
                               </div>
     <p>Featured Course: Llanishen</p>
-    <p>I'm hoping for a good tagline here.</p>
+      <article class="featuredarticle">
+      <h1>Llanishen Golf Club</h1>
+      <h4>Llanishen Golf Club in North Cardiff was founded in 1905 and is noted as an extremely friendly and welcoming Club.</h4>
+      <h4>Awarded Welsh Golf Club of the Year in 2022 and the prestigious GCMA Team of the Year award in 2019, you are guaranteed a fantastic service from the minute you arrive until the minute you leave.</h4>
+      <p>Nearby Caerphilly Mountain provides a wonderful backdrop; golfers enjoy spectacular views from many areas of the course across the Bristol Channel over to the Somerset coast. The Club has active Men’s and Ladies’ Sections, including golf for the over 60’s. There are lots of opportunities to play informal golf throughout the week, with knock out competitions and mixed events available throughout the summer. Societies and visitors are welcome throughout the year, but unfortunately due to the busy Competition calendar, not on Saturdays. Membership is currently full, however there are limited spaces available on the waiting list.</p>
+      </article> <!-- from: https://www.llanishengc.co.uk/ --> 
     <br>
 
-    <h2>GOOD TITLE FORTHCOMING</h2>
-    <h5>Good Title description forthcoming</h5>
-    <div class="noimage" style="height:200px;">Image</div>
-    <p>Some text..</p>
-    <p>Some more text when I have any idea what to put.</p>
-        <div style="background-color: grey;">
-          Main Section Div1
-        </div>
 
-        <div style="background-color: green;">
-          Main Section Div2
-        </div>
+    <h2>Our <strong>ONLY GOLF</strong> Academy</h2>
+    <h5>Our Academy is a place where you can learn and improve your golf game.</h5>
+    <div class="academy">
+      <picture>
+        <source srcset="assets/images/golfer_640.jpg" alt="golf course" media="(max-width: 650px)">
+        <img src="assets/images/golfer_1280.jpg" alt="golf course" style="max-width: 980px;"> <!--max 980px otherwise it flexes on laptop screen-->
+      </picture>
+    </div>
+    <p>Master your game with a range of expert coaching to suit all abilities from PGA professionals.</p>
+    <p>Our Academy is a place where you can learn and improve your golf game. We have a team of PGA Professionals who are here to help you with all aspects of your game. We have a range of coaching options available to suit all abilities and budgets. We also have a team of experts who can help you with your equipment, custom fitting and repairs. We have a team of experts who can help you with your equipment, custom fitting and repairs.</p>
+    <p><i>Only Golf Academy</i> offers exciting junior programmes designed to give boys and girls aged 6 and over the opportunity to have a go at golf for the very first time, in a series of fun sessions at the Golf Academy.</p>
+    <p>TO HELP YOU AVOID ROOKIE MISTAKES, FAILURES AND ENABLE YOU TO PLAY THE GOLF YOU KNOW YOU’RE CAPABLE OF</p>
 
   <!--Video - about training maybe?-->
-        <div style="background-color: yellow;">
-          Video Div - Possibly
-        </div>
-               </div>
-</div>
+  <!-- <div class="video">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/**********" title="Only Golf Academy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>  -->
     </main>
 
     <!-- Footer -->
   <footer class="footer">
     <div class="footer_div">
-      <div class="#" style="background-color: purple;">
-      <div class="#" style="background-color: purple;">
+      <div class="#">
+      <div class="#">
         <!-- Logo (again - try to add Home link)-->
         <div class="logo_footer">
           <a href="index.html">
@@ -153,7 +157,7 @@
         </div>
 
         <!-- Contact us -->
-        <section id="contact">
+        <div id="contact">
           <h2>Contact</h2>
           <h3>Open times</h3>
           <table>
@@ -187,6 +191,7 @@
             <span>email@mygolflife.com</span>
           </div>
 
+          <address>
         <!-- address with a map link (stupid map - just work)-->
           <h3>Address</h3>
           <p>My Golf Life,<br>
@@ -195,14 +200,14 @@
             Cardiff<br/>
             CF15 7JQ<br/></p>
 
-        </section>
+        
 
             <div>
-              <iframe src=https://bit.ly/MyGolfLife width="100%" height="300"></iframe>
-            </div>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4963.552448642313!2d-3.2464775!3d51.5356641!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486e1bc1ea276a99%3A0x33ba590afdab724b!2sCastell%20Coch%20Golf%20Course%2FFootgolf!5e0!3m2!1sen!2suk!4v1706666868783!5m2!1sen!2suk" width="40%" height="100" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div> <!--could not get to work as in 'coders coffee' lesson-->
 
           </address>
-
+        </div>
           <!-- Email address with a link -->
           <p>
             Contact us at:
@@ -211,7 +216,7 @@
         </div>
 
         <!-- Other footer elements -->
-        <div class="social-networks" style="background-color: pink;">
+        <div class="social-networks">
           <ul class="#">
             <li>
               <a href=https://instagram.com target="_blank" rel="noopener" aria-label="Visit our Instagram page">
