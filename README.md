@@ -62,5 +62,11 @@ no individual attribution at this stage.
 -	Ideas are not comming togetehr and usrr story is not working.
 -	Pictures are not flexing (biggest Problem)
 
+-Fix - Resizing of image on error.html now ok
+		- Outstanding is text does not stay centered.
+
+
 # FAQ
 -	Not FAQ yet -basic clicks only.
+-	Video are set to paused
+-	Videos are set sound "on"
