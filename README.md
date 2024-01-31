@@ -74,6 +74,8 @@ At the time of writing this I have only a vague idea of what I want this project
 - Best Practices weirdly really good - must have learnt something at least.
 - Convert vector images from .jpg to .WebP
 - srcset and sizes values for your images
+- images resized - now failing when published bit working in vs_code
+
 
 
 # FAQ
