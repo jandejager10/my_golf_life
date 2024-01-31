@@ -91,31 +91,35 @@
           <form action="https://formdump.codeinstitute.net" method="post">
 
             <!-- Name -->
+
             <div class="mb-3">
               <label for="name" class="form-label">Your Name:</label>
-              <input type="text" class="form-control" id="name" name="name" required="">
+              <input type="text" class="form-control" id="name" name="full_name" required="" placeholder="Your name">
             </div>
 
             <!-- Phone   (Optional)-->
             <div class="mb-3">
-              <label for="phone" class="form-label">Your Phone (Optional)</label>
-              <input type="tel" class="form-control" id="phone" name="phone">
+              <label for="phone-number" class="form-label">Your Phone (Optional)</label>
+              <input type="tel" class="form-control" id="phone-number" name="phone" placeholder="Your phone number">
             </div>
 
             <!-- Email  -->
             <div class="mb-3">
-              <label for="email" class="form-label">Your Email:</label>
-              <input type="email" class="form-control" id="email" name="email" required="">
+              <label for="email-field" class="form-label">Your Email:</label>
+              <input type="email" class="form-control" id="email-field" name="email" required="" placeholder="Your email">
             </div>
 
             <!-- Message Text -->
             <div class="mb-3">
-              <label for="message" class="form-label">Your Message:</label>
-              <textarea class="form-control" id="message" name="message" rows="9" required=""></textarea>
+              <label for="message-field" class="form-label">Your Message:</label>
+              <textarea class="form-control" id="message-field" name="message" rows="9" required="" placeholder="Simply start typing..."></textarea>
             </div>
 
             <!-- Submit Button -->
             <button type="submit" class="btn custom-btn mb-3 float-end">Submit</button>
+
+            <!-- Reset Button -->
+            <input type="reset" class="btn custom-btn mb-3 float-start" value="Reset">
           </form>
         </div>
       </div>
@@ -170,19 +174,19 @@
           </div>
 
           <address>
-            <h3>Address</h3>
-            <p>My Golf Life,<br>
-              Castell Coch Golf Course/Footgolf<br>
-              Castle Rd<br>
-              Cardiff<br>
-              CF15 7JQ<br></p>
-          </address>
+                      <h3>Address</h3>
+                      <p>My Golf Life,<br>
+                        Castell Coch Golf Course/Footgolf<br>
+                        Castle Rd<br>
+                        Cardiff<br>
+                        CF15 7JQ<br></p>
+                    </address>
+                  
 
             <div>
               <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4963.552448642313!2d-3.2464775!3d51.5356641!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486e1bc1ea276a99%3A0x33ba590afdab724b!2sCastell%20Coch%20Golf%20Course%2FFootgolf!5e0!3m2!1sen!2suk!4v1706666868783!5m2!1sen!2suk" title="map" width="40%" height="100" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div> <!--could not get to work as in 'coders coffee' lesson - also gives error in validation for 40%-->
 
-          </address>
         </div>
           <!-- Email address with a link -->
           <p>
@@ -228,5 +232,4 @@
     </div>
   </footer>
 </body>
-
 </html>

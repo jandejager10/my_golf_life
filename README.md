@@ -76,7 +76,8 @@ At the time of writing this I have only a vague idea of what I want this project
 	- got new image and back ro .png
 - srcset and sizes values for your images
 - images resized - now failing when published bit working in vs_code
-
+- Validation of HTML shows 4 errors - keeping it as is with errors
+- misnamed image files causing LCP delays in lighthouse
 
 
 # FAQ
