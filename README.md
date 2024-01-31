@@ -44,6 +44,7 @@ At the time of writing this I have only a vague idea of what I want this project
 -	Adobe, for the color wheel.  #2D3540	#0B8C38	#20733D #5DBF4E #F2F2F2
 -	Pictures / Photos from https://pixabay.com/
 -	Picures / Photos from https://www.shutterstock.com/
+- 	Youtube - for all the videos
 	
 # Content
 	This includes history and information.
@@ -58,6 +59,7 @@ At the time of writing this I have only a vague idea of what I want this project
 # Release History + Bugs
 22/01/2024 - Deleted basically everthing that came before and restarted - really hope this goes well as there is not much time left.
 30/01/2024 - So little time and nothing works yet - picture flex is biggest problem at the moment.
+31/01/2024 - Final
 
 # TESTING
 -	Too many pages
@@ -78,9 +80,12 @@ At the time of writing this I have only a vague idea of what I want this project
 - images resized - now failing when published bit working in vs_code
 - Validation of HTML shows 4 errors - keeping it as is with errors
 - misnamed image files causing LCP delays in lighthouse
+- performance still not quite where it should be due to image and 'youtube' link loads
 
 
 # FAQ
 -	Not FAQ yet -basic clicks only.
 -	Video are set to paused
 -	Videos are set sound "on"
+
+
